@@ -1,0 +1,140 @@
+.save-replay-section {
+  margin-bottom: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.s-v-title {
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 24px;
+  margin-right: 7px;
+  margin-left: 7px;
+}
+
+.s-v-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  text-align: center;
+
+  margin-bottom: 23px;
+  margin-right: 7px;
+  margin-left: 7px;
+}
+
+.s-v-box {
+  border-radius: 20px;
+  padding: 24px 16px;
+  width: 288px;
+  height: 174px;
+  background: #b1c1b5;
+  margin: 0 auto;
+  margin-bottom: 24px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-three {
+  margin-bottom: 0px;
+  height: 228px;
+  padding: 16px 15.5px;
+}
+
+.s-v-box-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 2.5;
+  text-align: center;
+}
+
+@media only screen and (min-width: 1200px) {
+  .save-replay-section {
+    margin-bottom: 71px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .s-v-title {
+    font-size: 48px;
+    line-height: 1.67;
+
+    margin-bottom: 32px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .s-v-text {
+    font-size: 32px;
+    line-height: 1.56;
+
+    width: 898px;
+    margin-bottom: 32px;
+    margin-right: 27px;
+    margin-left: 27px;
+  }
+
+  .s-v-box {
+    width: 490px;
+    margin: 0;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+
+  .box-one {
+    height: 154px;
+    padding: 39px 15px;
+    position: relative;
+    margin-bottom: 44px;
+    margin-left: 2px;
+  }
+
+  .box-two {
+    height: 115px;
+    margin-left: 539px;
+    margin-bottom: 88px;
+    padding: 38px 58px;
+    position: relative;
+  }
+
+  .s-v-box:last-child {
+    height: 231px;
+    padding: 36px 52px;
+    margin-left: 92px;
+  }
+
+  .s-v-box-text {
+    font-size: 20px;
+    line-height: 2;
+    text-align: left;
+  }
+
+  .vector {
+    position: absolute;
+  }
+
+  .vector-one {
+    width: 249px;
+    height: 134px;
+    top: 36px;
+    left: 512px;
+  }
+
+  .vector-two {
+    width: 209px;
+    height: 130px;
+    top: 64px;
+    right: 506px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .vector {
+    display: none;
+  }
+}
