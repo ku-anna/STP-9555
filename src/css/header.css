@@ -1,4 +1,10 @@
 /* ----------HEADER BASIC--------*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 .header {
   display: flex;
   background-color: #a8cbde;
@@ -7,7 +13,7 @@
   width: 320px;
   height: 120px;
   position: relative;
-  z-index: 2;
+  z-index: 999;
 }
 
 .logo {
@@ -36,20 +42,23 @@
   align-items: center;
 }
 
-/*-------------HEADER MENU--------*/
+/*---------DROPDOWN MENU--------*/
 .mobile-menu {
   position: absolute;
   width: 100%;
   left: 0;
-  top: 0;
+  top: 100%;
   background-color: #b9d8e5;
   padding: 24px 16px 20px 16px;
-  transform: translateY(-100%);
+  transform: translateY(-120%);
   transition: transform 0.3s ease-in-out;
+  z-index: 5;
 }
-.header-nav {
-  width: 100%;
+.burger-btn[aria-expanded='true'] svg {
+  width: 20px;
+  height: 20px;
 }
+
 .mobile-menu.open {
   transform: translateY(0);
 }

@@ -1,3 +1,5 @@
-import { initBurgerMenu } from './js/header';
+import { setupMobileMenu } from './js/header.js';
 
-initBurgerMenu();
+document.addEventListener('DOMContentLoaded', () => {
+  setupMobileMenu();
+});
