@@ -1,0 +1,145 @@
+.acces-section {
+  padding-top: 25px;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+
+.access-title {
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.access-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  text-align: center;
+  margin-bottom: 23px;
+}
+
+.access-box {
+  background-image: url(/img/mobile-hero-bcg.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  width: 288px;
+  height: 871px;
+  border-radius: 40px;
+  padding: 24px 0;
+  margin: 0 auto;
+}
+
+@media screen and (min-resolution: 2dppx),
+  (min-resolution: 192dpi),
+  (-webkit-min-device-pixel-ratio: 2) {
+  .access-box {
+    background-image: url(/img/mobile-hero-bcg@2x.webp);
+  }
+}
+
+.access-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.access-list-item {
+  padding: 0 16px;
+}
+
+.li-one {
+  height: 150px;
+}
+
+.li-two {
+  height: 187px;
+}
+
+.li-three {
+  height: 140px;
+}
+
+.li-four {
+  height: 274px;
+}
+
+.access-list-icon {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+
+.access-list-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  text-align: center;
+}
+
+@media only screen and (min-width: 1200px) {
+  .acces-section {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+  }
+
+  .access-title {
+    font-size: 48px;
+    line-height: 1.67;
+    margin-bottom: 32px;
+  }
+
+  .access-text {
+    display: none;
+  }
+
+  .access-box {
+    background-position: top -48px center;
+
+    border-radius: 60px;
+    padding: 71px 105px 36px 55px;
+    width: 1028px;
+    height: 564px;
+  }
+
+  .access-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 48px;
+    row-gap: 64px;
+  }
+
+  .access-list-item {
+    padding: 0;
+  }
+
+  .li-one {
+    height: 162px;
+    width: 410px;
+  }
+
+  .li-two {
+    height: 162px;
+    width: 410px;
+  }
+
+  .li-three {
+    height: 137px;
+    width: 410px;
+  }
+
+  .li-four {
+    height: 231px;
+    width: 410px;
+  }
+
+  .access-list-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.4;
+  }
+}

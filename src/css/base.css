@@ -5,7 +5,7 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color: #242424;
+  color: #2e2b2b;
   background-color: rgba(255, 255, 255, 0.87);
 
   font-synthesis: none;
@@ -32,4 +32,8 @@ main {
 }
 main:has(.back-link) {
   text-align: center;
+}
+
+.second-font {
+  font-family: 'Poppins', sans-serif;
 }
