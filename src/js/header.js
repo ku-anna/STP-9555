@@ -9,8 +9,8 @@ export function setupMobileMenu() {
     iconUse.setAttribute(
       'href',
       isOpen
-        ? './public/sprite.svg#icon-close'
-        : './public/sprite.svg#burger-icon'
+        ? './sprite.svg#icon-close'
+        : './sprite.svg#burger-icon'
     );
   });
 }
