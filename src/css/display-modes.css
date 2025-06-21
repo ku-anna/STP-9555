@@ -1,0 +1,96 @@
+.display-section {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  margin: 0 auto;
+}
+
+.display-title {
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.display-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.display-cards {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  text-align: center;
+}
+
+.display-cards-dark {
+  border-radius: 60px 0 0 0;
+  width: 288px;
+  height: 276px;
+
+  background: #1e1e1e;
+
+  color: #fff;
+  margin: 0 auto;
+  margin-bottom: 24px;
+  padding: 48px 12px;
+}
+
+.display-cards-light {
+  border-radius: 0 100px 0 0;
+  width: 288px;
+  height: 276px;
+  background: #f4f6f8;
+  margin: 0 auto;
+  padding: 102px 16px 90px 16px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .display-section {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+  }
+
+  .display-title {
+    font-size: 48px;
+    line-height: 1.67;
+
+    margin-bottom: 32px;
+  }
+
+  .display-text {
+    font-size: 32px;
+    margin-bottom: 32px;
+  }
+
+  .display-cards {
+    font-size: 24px;
+    line-height: 2.08;
+    text-align: left;
+
+    display: flex;
+    gap: 58px;
+  }
+
+  .display-cards-dark {
+    border-radius: 100px 0 0 0;
+    width: 484px;
+    height: 387px;
+
+    margin-bottom: 0px;
+    padding: 68px 20px;
+  }
+
+  .display-cards-light {
+    border-radius: 0 100px 0 0;
+    width: 484px;
+    height: 387px;
+
+    padding: 144px 27px;
+  }
+}
