@@ -1,6 +1,6 @@
 /*-------MENU-------- */
-
 export function setupMobileMenu() {
+  if (window.innerWidth >= 1200) return;
   const btn = document.querySelector('.burger-btn');
   const menu = document.getElementById('mobile-menu');
   const iconUse = btn.querySelector('use');
