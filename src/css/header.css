@@ -194,7 +194,6 @@ a {
     transform: none !important;
     padding: 0;
     background-color: transparent;
-    display: block !important;
     width: 100%;
   }
 
@@ -245,7 +244,7 @@ a {
     flex-direction: row;
     gap: 20px;
     border-radius: 12px;
-    padding: 48px 32px 48px 32px;
+    padding: 0 32px 0 32px;
     width: 1000px;
     height: 236px;
     box-shadow: 0 8px 28px 0 rgba(0, 0, 0, 0.28);
@@ -253,6 +252,7 @@ a {
   }
   .privacy-wrapper {
     width: 656px;
+    margin-top: 48px;
   }
 
   .cookie-text {
