@@ -10,7 +10,7 @@ export function setupMobileMenu() {
     btn.setAttribute('aria-expanded', isOpen);
     iconUse.setAttribute(
       'href',
-      isOpen ? './sprite.svg#icon-close' : './sprite.svg#burger-icon'
+      isOpen ? '/img/sprite.svg#icon-close' : '/img/sprite.svg#burger-icon'
     );
   });
 }
