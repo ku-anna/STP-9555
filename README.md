@@ -1,1 +1,1 @@
-Made by Anna kubareva and Daryna Dyadyuk, Designed by Zlata K.
+Made by Anna kubareva and Daryna Diadiuk, Designed by Zlata K.
