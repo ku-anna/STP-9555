@@ -1,10 +1,4 @@
 /* ----------HEADER BASIC--------*/
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 .header {
   display: flex;
   background-color: #a8cbde;
