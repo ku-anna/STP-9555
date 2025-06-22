@@ -1,0 +1,62 @@
+.gameplay-section {
+  margin-bottom: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.game-title {
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.game-content-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+
+.game-content-img > img {
+  width: 294px;
+  height: 356px;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 1200px) {
+  .gameplay-section {
+    margin-bottom: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .gameplay-container {
+    padding-right: 47px;
+  }
+
+  .game-title {
+    font-size: 48px;
+    line-height: 1.67;
+    margin-bottom: 15px;
+    width: 832px;
+    margin-left: 116px;
+  }
+
+  .game-content {
+    display: flex;
+  }
+
+  .game-content-text {
+    font-size: 20px;
+    line-height: 2;
+    margin: 33px 37px 0 0;
+    width: 638px;
+  }
+
+  .game-content-img > img {
+    width: 392px;
+    height: 474px;
+  }
+}

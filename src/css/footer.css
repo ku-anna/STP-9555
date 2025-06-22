@@ -1,21 +1,142 @@
 .footer {
-  padding: 20px 0;
+  padding: 32px 0;
+  background: #2f5163;
 }
-.footer-desc {
-  text-align: center;
+
+.footer > .container {
+  padding: 0 30px;
 }
+
 .footer-link {
-  position: relative;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
 }
-.footer-link::before {
-  content: '';
-  position: absolute;
-  bottom: 6%;
-  left: 50%;
-  transform: translateX(-50%) skewX(-12deg);
-  z-index: -1;
-  width: 110%;
-  height: 24%;
-  background-color: #41d1ff;
-  transition: 200ms ease;
+
+.footer-link-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
+  color: #fff;
+  transition: color cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.footer-link-text:hover,
+.footer-link-text:focus,
+.footer-link-text:active {
+  color: #d7b9a7;
+}
+
+.footer-link-social {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.footer-link-social > a {
+  cursor: pointer;
+  fill: #fff;
+}
+
+.footer-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 2;
+  color: #c1c7cd;
+  margin-bottom: 32px;
+}
+
+.footer-copy {
+  width: 288px;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: -0.1em;
+  color: #c0bfbf;
+}
+
+@media only screen and (min-width: 1200px) {
+  .footer {
+    padding-bottom: 74px;
+  }
+
+  .footer > .container {
+    padding: 0 86px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-link {
+    flex-direction: row;
+    justify-content: end;
+    gap: 37px;
+    padding-bottom: 48px;
+    border-bottom: 1px solid #c1c7cd;
+  }
+
+  .footer-link-text {
+    font-size: 20px;
+    line-height: 2;
+  }
+
+  .footer-link-text:hover,
+  .footer-link-text:focus {
+    color: #d7b9a7;
+  }
+
+  .footer-link-text:active {
+    color: #e6e6e6;
+  }
+
+  .footer-link-social {
+    gap: 16px;
+    justify-content: end;
+    margin-bottom: 0px;
+  }
+
+  .footer-link-social > a {
+    transition: fill cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+
+  .footer-link-social > a:hover,
+  .footer-link-social > a:focus {
+    fill: #d7b9a7;
+  }
+
+  .footer-link-social > a:active {
+    fill: #fff;
+  }
+
+  .footer-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 2;
+    order: -1;
+  }
+
+  .footer-text:hover {
+    color: #d7b9a7;
+  }
+
+  .footer-copy {
+    font-size: 14px;
+    width: 532px;
+    letter-spacing: 0em;
+    margin-top: -24px;
+  }
+
+  .privacy {
+    order: 1;
+  }
+
+  .terms {
+    order: 2;
+  }
+
+  .cookie {
+    order: 3;
+  }
 }
