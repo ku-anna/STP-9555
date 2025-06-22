@@ -1,16 +1,21 @@
+.header-back-link {
+  padding: 24px 17px;
+}
+
 .main-title {
   font-weight: 500;
   font-size: 24px;
   text-align: center;
   color: #000;
+  margin-bottom: 40px;
 }
 
-.cookies-title,
-.cookie-list > li::marker {
+.cookies-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.4;
   color: #000;
+  text-align: left;
   margin-bottom: 12px;
 }
 
@@ -23,5 +28,77 @@
 }
 
 .cookie-list > li {
+  padding-top: 16px;
+  padding-bottom: 16px;
   margin-bottom: 24px;
+}
+
+.li-style {
+  list-style-type: disc;
+  margin-left: 36px;
+}
+
+.we-use-cookies {
+  padding-top: 8px;
+}
+
+.we-use-cookies > li {
+  margin-bottom: 0;
+}
+
+.type {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.privacy-link {
+  text-decoration: underline;
+}
+
+.terms-mb {
+  margin-bottom: 24px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .cookie-container {
+    padding-left: 116px;
+    padding-right: 116px;
+  }
+
+  .header-back-link {
+    padding: 32px 86px;
+  }
+
+  .main-title {
+    font-size: 48px;
+    line-height: 1.67;
+
+    margin-bottom: 48px;
+  }
+
+  .cookies-title {
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
+
+  .cookies-text {
+    font-size: 20px;
+    line-height: 2;
+    padding-bottom: 24px;
+  }
+
+  .cookie-list > li {
+    padding-top: 24px;
+    padding-bottom: 0px;
+    margin-bottom: 24px;
+  }
+
+  .we-use-cookies {
+    padding-top: 8px;
+  }
+
+  .we-use-cookies > li {
+    padding: 0;
+    margin-bottom: 0;
+  }
 }
