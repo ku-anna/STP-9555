@@ -36,7 +36,8 @@
   margin-bottom: 32px;
 }
 
-.footer-link-social > svg {
+.footer-link-social > a {
+  cursor: pointer;
   fill: #fff;
 }
 
@@ -96,16 +97,16 @@
     margin-bottom: 0px;
   }
 
-  .footer-link-social > svg {
+  .footer-link-social > a {
     transition: fill cubic-bezier(0.075, 0.82, 0.165, 1);
   }
 
-  .footer-link-social > svg:hover,
-  .footer-link-social > svg:focus {
+  .footer-link-social > a:hover,
+  .footer-link-social > a:focus {
     fill: #d7b9a7;
   }
 
-  .footer-link-social > svg:active {
+  .footer-link-social > a:active {
     fill: #fff;
   }
 
