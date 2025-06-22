@@ -27,4 +27,8 @@
 
 /*-----------DESKTOP---------*/
 @media only screen and (min-width: 1200px) {
+  .second-font {
+    font-size: 48px;
+    line-height: 1.66667;
+  }
 }
