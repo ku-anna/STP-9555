@@ -1,23 +1,25 @@
 <section class="hero">
   <div class="container hero-container">
-    <h2 class="game-name">A Puzzle for <span class="every">Every</span> Day</h2>
+    <h1 class="second-font">
+      A Puzzle for <span class="every">Every</span> Day
+    </h1>
     <img
-      src="./img/dragon.webp"
+      srcset="./img/dragon.webp, ./img/dragon@2x.webp"
       alt="dragon"
-      width="180"
-      height="121"
       class="dragon"
     />
     <p class="promo">
       The official mobile version of DragonFjord’s bestselling puzzle. Just 8
       pieces, one calendar grid, and infinite possibilities.
     </p>
+
+    <div class="bg-image"></div>
     <button
       onclick="location.href='https://play.google.com/store/apps/details?id=com.DragonFjord.APuzzleADay&hl=en&gl=us&pli=1';"
       class="hero-btn"
     >
       <svg width="26" height="24">
-        <use href="./sprite.svg#icon-google-play/"></use>
+        <use href="/img/sprite.svg#icon-google-play"></use>
       </svg>
       Google Play
     </button>
