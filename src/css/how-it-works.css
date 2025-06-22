@@ -1,0 +1,30 @@
+.hiw-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.hiw-block {
+  border-radius: 20px;
+  padding: 24px 16px;
+  width: 288px;
+  height: auto;
+  background: #d7b9a7;
+}
+.hiw-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 2.5;
+  text-align: center;
+  color: #2e2b2b;
+}
+.second-font {
+  margin-top: 29px;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  color: #2e2b2b;
+}
+
+/*-----------DESKTOP---------*/
+@media only screen and (min-width: 1200px) {
+}
