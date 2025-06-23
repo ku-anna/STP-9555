@@ -3,19 +3,18 @@
   flex-direction: column;
   gap: 24px;
 }
-.hiw-block {
-  border-radius: 20px;
-  padding: 24px 16px;
-  width: 288px;
-  height: auto;
-  background: #d7b9a7;
-}
+
 .hiw-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 2.5;
   text-align: center;
   color: #2e2b2b;
+  border-radius: 20px;
+  padding: 24px 16px;
+  width: 288px;
+  height: auto;
+  background: #d7b9a7;
 }
 .second-font {
   margin-top: 29px;
@@ -24,11 +23,53 @@
   text-align: center;
   color: #2e2b2b;
 }
+.slash-1,
+.slash-2,
+.slash-3 {
+  display: none;
+}
 
 /*-----------DESKTOP---------*/
 @media only screen and (min-width: 1200px) {
+  .slash-1,
+  .slash-2,
+  .slash-3 {
+    display: block;
+  }
   .second-font {
     font-size: 48px;
     line-height: 1.66667;
+  }
+  .hiw-text {
+    width: 490px;
+    height: auto;
+  }
+  .hiw-block-1,
+  .hiw-block-2,
+  .hiw-block-3 {
+    display: flex;
+    flex-direction: row;
+  }
+  .hiw-block-2 {
+    margin-left: 290px;
+    margin-bottom: 80px;
+  }
+  .hiw-block-4 {
+    margin-left: 540px;
+    transform: translateY(-30px);
+  }
+  .slash-1 {
+    transform: translateY(20px);
+  }
+  .slash-2 {
+    transform: translateY(90px);
+  }
+  .hiw-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 2;
+    color: #2e2b2b;
+    text-align: left;
+    padding: 40px;
   }
 }
