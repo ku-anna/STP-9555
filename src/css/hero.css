@@ -5,12 +5,12 @@
 }
 
 .hero {
-  padding: 24px 16px;
+  padding: 24px 0;
 }
 
 .hero-container {
   width: 100%;
-  padding: 24px 16px;
+  padding: 24px 0;
   position: relative;
   display: flex;
   overflow: hidden;
@@ -125,9 +125,10 @@
     font-size: 24px;
     color: #1e1e1e;
   }
-}
-@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  .bg-image {
-    background: url('/img/desktop-hero-bcg@2x.webp') center/cover no-repeat;
+
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .bg-image {
+      background: url('/img/desktop-hero-bcg@2x.webp') center/cover no-repeat;
+    }
   }
 }
