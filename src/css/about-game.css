@@ -1,3 +1,6 @@
+.about-game {
+  padding-bottom: 24px;
+}
 .about-game-container {
   display: flex;
   flex-direction: column;
