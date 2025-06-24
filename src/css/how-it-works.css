@@ -1,3 +1,6 @@
+.how-it-works {
+  padding-bottom: 24px;
+}
 .hiw-container {
   display: flex;
   flex-direction: column;
