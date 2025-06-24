@@ -4,6 +4,7 @@
 .hiw-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 24px;
 }
 
@@ -53,13 +54,19 @@
     display: flex;
     flex-direction: row;
   }
+  .hiw-block-1 {
+    margin-left: -290px;
+  }
   .hiw-block-2 {
     margin-left: 290px;
     margin-bottom: 80px;
   }
+  .hiw-block-3 {
+    margin-left: -290px;
+  }
   .hiw-block-4 {
     margin-left: 540px;
-    transform: translateY(-30px);
+    transform: translateY(-50px);
   }
   .slash-1 {
     transform: translateY(20px);
