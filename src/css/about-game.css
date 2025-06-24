@@ -7,7 +7,8 @@
   align-items: center;
   gap: 24px;
 }
-.second-font {
+.about-game-h {
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 24px;
   text-align: center;
@@ -40,9 +41,10 @@
     justify-content: center;
     gap: 32px 46px;
   }
-  .second-font {
+  .about-game-h {
     font-size: 48px;
     line-height: 1.66667;
+    width: 100%;
   }
   .block {
     height: 331px;

@@ -1,4 +1,6 @@
 /*-------MENU-------- */
+import spriteUrl from '/img/sprite.svg?url';
+
 export function setupMobileMenu() {
   if (window.innerWidth >= 1200) return;
 
@@ -18,7 +20,7 @@ export function setupMobileMenu() {
     btn.setAttribute('aria-expanded', isOpen);
     iconUse.setAttribute(
       'href',
-      isOpen ? 'img/sprite.svg#icon-close' : 'img/sprite.svg#burger-icon'
+      isOpen ? `${spriteUrl}#icon-close` : `${spriteUrl}#burger-icon`
     );
   });
 
