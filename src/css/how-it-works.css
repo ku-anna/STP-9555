@@ -20,7 +20,8 @@
   height: auto;
   background: #d7b9a7;
 }
-.second-font {
+.hiw-title {
+  font-family: 'Poppins', sans-serif;
   margin-top: 29px;
   font-weight: 500;
   font-size: 24px;
@@ -40,7 +41,7 @@
   .slash-3 {
     display: block;
   }
-  .second-font {
+  .hiw-title {
     font-size: 48px;
     line-height: 1.66667;
   }

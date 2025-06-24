@@ -57,6 +57,7 @@
 }
 
 .menu-list {
+  margin: 0 auto;
   width: 288px;
   list-style: none;
   padding: 0;
