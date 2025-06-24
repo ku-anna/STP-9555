@@ -187,7 +187,14 @@ a {
   border-radius: 8px;
   background-color: #a8cbde;
 }
-
+#cookieModal {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+#cookieModal.show {
+  opacity: 1;
+}
 @media only screen and (min-width: 1200px) {
   .header {
     display: flex;
@@ -205,6 +212,15 @@ a {
     padding: 0;
     background-color: transparent;
     width: 100%;
+  }
+  .menu-list li:nth-child(odd) a:active,
+  .menu-list li a:active {
+    background: none;
+    color: #1f1f1f;
+  }
+  .menu-list li:nth-child(odd) a:hover,
+  .menu-list li a:hover {
+    color: #00300b;
   }
 
   .header-container {
