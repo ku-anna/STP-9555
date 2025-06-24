@@ -30,29 +30,30 @@ export function setupMobileMenu() {
 /*---------COOKIES-----*/
 
 export function initCookiePopup() {
-  const cookieModal = document.getElementById('cookieModal');
+  const modal = document.getElementById('cookieModal');
   const acceptBtn = document.getElementById('acceptBtn');
   const declineBtn = document.getElementById('declineBtn');
+  if (!modal || !acceptBtn || !declineBtn) return;
 
-  if (!cookieModal || !acceptBtn || !declineBtn) return;
-
-  const cookieChoice = localStorage.getItem('cookieConsent');
-
-  if (!cookieChoice) {
-    setTimeout(() => {
-      cookieModal.classList.add('show');
-    }, 2000);
+  const choice = localStorage.getItem('cookieConsent');
+  if (choice) {
+    modal.classList.remove('show');
+    modal.style.display = 'none';
+    return;
   }
 
-  function hidePopup(choice) {
-    cookieModal.classList.remove('show');
-    cookieModal.classList.add('hide');
+  setTimeout(() => {
+    modal.style.display = 'flex';
+    void modal.offsetWidth;
+    modal.classList.add('show');
+  }, 2000);
 
+  function hidePopup(value) {
+    modal.classList.remove('show');
     setTimeout(() => {
-      cookieModal.style.display = 'none';
+      modal.style.display = 'none';
     }, 300);
-
-    localStorage.setItem('cookieConsent', choice);
+    localStorage.setItem('cookieConsent', value);
   }
 
   acceptBtn.addEventListener('click', () => hidePopup('accepted'));
