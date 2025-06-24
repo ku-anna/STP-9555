@@ -181,16 +181,22 @@ a {
   border: none;
   color: #fff;
 }
-
+.accept-btn:hover {
+  background: #2f5939;
+}
+.accept-btn:active {
+  background: #55845f;
+}
 .decline-btn {
   border: 1px solid #487051;
   border-radius: 8px;
   background-color: #a8cbde;
 }
-#cookieModal {
-  display: none;
-  opacity: 0;
-  transition: opacity 0.3s ease;
+.decline-btn:hover {
+  background: #c2c2c2;
+}
+.decline-btn:active {
+  background: none;
 }
 #cookieModal.show {
   opacity: 1;
