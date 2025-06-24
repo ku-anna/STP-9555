@@ -51,6 +51,12 @@
   height: 56px;
   background: #d7b9a7;
 }
+.play-btn:hover {
+  background: #c6997e;
+}
+.play-btn:active {
+  background: #cca791;
+}
 /*----------DESKTOP---------*/
 @media only screen and (min-width: 1200px) {
   .rewards {
