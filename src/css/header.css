@@ -29,7 +29,15 @@
 .burger-btn svg {
   display: block;
 }
-
+.menu-list li:nth-child(odd) a:active,
+  .menu-list li a:active {
+    background: none;
+    color: #1f1f1f;
+  }
+  .menu-list li:nth-child(odd) a:hover,
+  .menu-list li a:hover {
+    color: #00300b;
+  }
 .header-container {
   display: flex;
   flex-direction: row;
