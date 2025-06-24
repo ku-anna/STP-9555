@@ -35,7 +35,6 @@
   flex-direction: row;
   align-items: center;
   padding-left: 0;
-  z-index: 999;
 }
 
 /*---------DROPDOWN MENU--------*/
@@ -87,16 +86,29 @@
 .menu-list li:nth-child(odd) a {
   background: #d7b9a7;
 }
-
-.menu-list li a:hover {
-  opacity: 0.9;
+.menu-list li:nth-child(odd) a:active {
+  background: #c6997e;
+}
+.menu-list li a:active {
+  background: #81ab8a;
 }
 a {
   font-weight: 500;
   font-size: 20px;
   color: #2e2b2b;
 }
-
+@media only screen and (max-width: 1199px) {
+  .mobile-menu {
+    position: fixed;
+    top: 120px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;
+    z-index: 999;
+    padding: 24px 16px;
+  }
+}
 /*-----------COOKIES MODAL---------*/
 .cookie-modal {
   position: fixed;

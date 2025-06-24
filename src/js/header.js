@@ -1,9 +1,17 @@
 /*-------MENU-------- */
 export function setupMobileMenu() {
   if (window.innerWidth >= 1200) return;
+
   const btn = document.querySelector('.burger-btn');
   const menu = document.getElementById('mobile-menu');
   const iconUse = btn.querySelector('use');
+  const links = menu.querySelectorAll('a');
+
+  const closeMenu = () => {
+    menu.classList.remove('open');
+    btn.setAttribute('aria-expanded', false);
+    iconUse.setAttribute('href', 'img/sprite.svg#burger-icon');
+  };
 
   btn.addEventListener('click', () => {
     const isOpen = menu.classList.toggle('open');
@@ -12,6 +20,10 @@ export function setupMobileMenu() {
       'href',
       isOpen ? 'img/sprite.svg#icon-close' : 'img/sprite.svg#burger-icon'
     );
+  });
+
+  links.forEach(link => {
+    link.addEventListener('click', closeMenu);
   });
 }
 

@@ -17,7 +17,14 @@
 .container {
   margin: 0 auto;
 }
-
+section {
+  scroll-margin-top: 120px;
+}
+#creators,
+#community,
+#contact {
+  scroll-margin-top: 120px;
+}
 body {
   background-color: #d4e5ee;
   display: flex;
