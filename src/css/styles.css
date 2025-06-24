@@ -23,8 +23,6 @@
 @import url('./gameplay.css');
 @import url('./display-modes.css');
 @import url('./app-info.css');
-@import url('./privacy-policy.css');
-@import url('./terms-and-conditions.css');
-@import url('./cookies-policy.css');
+@import url('./policy.css');
 @import url('./back-link.css');
 @import url('./footer.css');

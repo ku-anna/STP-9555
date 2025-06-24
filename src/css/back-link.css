@@ -8,11 +8,25 @@
   align-items: center;
   gap: 32px;
   cursor: pointer;
+  transition: color cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .back-link > svg {
   width: 30px;
   height: 30px;
+  transition: fill cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.back-link:hover,
+.back-link:focus {
+  color: #00300b;
+  fill: #00300b;
+}
+
+.back-link:active,
+.back-link:active {
+  color: #1f1f1f;
+  fill: #1f1f1f;
 }
 
 @media only screen and (min-width: 1200px) {
