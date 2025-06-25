@@ -12,7 +12,8 @@ export function setupMobileMenu() {
   const closeMenu = () => {
     menu.classList.remove('open');
     btn.setAttribute('aria-expanded', false);
-    iconUse.setAttribute('href', 'img/sprite.svg#burger-icon');
+    iconUse.setAttribute('href', '/img/sprite.svg#burger-icon');
+    
   };
 
   btn.addEventListener('click', () => {
