@@ -1,5 +1,7 @@
 .about-game {
   padding-bottom: 24px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 .about-game-container {
   display: flex;
@@ -66,5 +68,11 @@
     font-size: 20px;
     line-height: 2;
     text-align: start;
+  }
+
+  .about-game {
+    padding-bottom: 32px;
+    margin-top: 32px;
+    margin-bottom: 32px;
   }
 }

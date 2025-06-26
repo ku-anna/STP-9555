@@ -1,6 +1,8 @@
 .how-it-works {
   padding-bottom: 24px;
+  margin-bottom: 24px;
 }
+
 .hiw-container {
   display: flex;
   flex-direction: column;
@@ -82,5 +84,10 @@
     color: #2e2b2b;
     text-align: left;
     padding: 40px;
+  }
+
+  .how-it-works {
+    padding-bottom: 32px;
+    margin-bottom: 32px;
   }
 }

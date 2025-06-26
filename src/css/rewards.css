@@ -11,7 +11,7 @@
     rgba(215, 185, 167, 0.4) 0%,
     #b1c1b5 100%
   );
-  padding-top: 40px;
+  padding-top: 58px;
   padding-bottom: 24px;
 }
 .rewards-title {
@@ -65,6 +65,8 @@
     border-radius: 150px 150px 0 0;
     width: 1028px;
     height: auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
   .second-font {
     font-size: 48px;
@@ -99,5 +101,9 @@
     height: 56px;
     display: block;
     margin: 0 auto;
+  }
+
+  .rewards-title {
+    margin-bottom: 32px;
   }
 }
