@@ -1,36 +1,43 @@
-<header class="header">
+<header class="header" data-header>
   <div class="container">
     <div class="header-container">
       <img src="./img/logo.webp" width="60" height="60" class="logo" />
-      <button class="burger-btn" aria-label="Open menu">
+      <button
+        data-burger-btn="open"
+        aria-label="Open menu"
+        aria-expanded="false"
+        class="burger-btn"
+      >
         <svg width="32" height="32">
           <use href="/img/sprite.svg#burger-icon"></use>
         </svg>
       </button>
-      <div class="mobile-menu" id="mobile-menu">
+
+      <div class="mobile-menu" data-mobile-menu="closed">
         <nav class="header-nav">
           <ul class="menu-list">
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#about-game">About</a></li>
-            <li><a href="#how-it-works">How It Works</a></li>
-            <li><a href="#rewards">Rewards</a></li>
-            <li><a href="#customization">Customization</a></li>
-            <li><a href="#tools">Tools</a></li>
-            <li><a href="#save-replay">Save & Replay</a></li>
-            <li><a href="#accessibility">Accessibility</a></li>
-            <li><a href="#bonus-features">Bonus Features</a></li>
-            <li><a href="#gameplay">Gameplay</a></li>
-            <li><a href="#display-modes">Display Modes</a></li>
-            <li><a href="#app-info">App Info</a></li>
-            <li><a href="#creators">Creators</a></li>
-            <li><a href="#community">Community</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#hero" data-menu-link>Home</a></li>
+            <li><a href="#about-game" data-menu-link>About</a></li>
+            <li><a href="#how-it-works" data-menu-link>How It Works</a></li>
+            <li><a href="#rewards" data-menu-link>Rewards</a></li>
+            <li><a href="#customization" data-menu-link>Customization</a></li>
+            <li><a href="#tools" data-menu-link>Tools</a></li>
+            <li><a href="#save-replay" data-menu-link>Save & Replay</a></li>
+            <li><a href="#accessibility" data-menu-link>Accessibility</a></li>
+            <li><a href="#bonus-features" data-menu-link>Bonus Features</a></li>
+            <li><a href="#gameplay" data-menu-link>Gameplay</a></li>
+            <li><a href="#display-modes" data-menu-link>Display Modes</a></li>
+            <li><a href="#app-info" data-menu-link>App Info</a></li>
+            <li><a href="#creators" data-menu-link>Creators</a></li>
+            <li><a href="#community" data-menu-link>Community</a></li>
+            <li><a href="#contact" data-menu-link>Contact</a></li>
           </ul>
         </nav>
       </div>
     </div>
   </div>
-  <div class="cookie-modal" id="cookieModal">
+
+  <div class="cookie-modal" data-cookie-modal="closed" style="display: none">
     <div class="privacy-wrapper">
       <h2 class="your-privacy">Your Privacy</h2>
       <p class="cookie-text">
@@ -39,8 +46,12 @@
       </p>
     </div>
     <div class="cookie-btns">
-      <button class="accept-btn" id="acceptBtn">ACCEPT COOKIES</button>
-      <button class="decline-btn" id="declineBtn">DECLINE COOKIES</button>
+      <button class="accept-btn" data-accept-btn aria-label="Accept cookies">
+        ACCEPT COOKIES
+      </button>
+      <button class="decline-btn" data-decline-btn aria-label="Decline cookies">
+        DECLINE COOKIES
+      </button>
     </div>
   </div>
 </header>

@@ -53,7 +53,7 @@
   height: 20px;
 }
 
-.mobile-menu.open {
+[data-mobile-menu='open'] {
   transform: translateY(0);
 }
 
@@ -140,7 +140,7 @@ a {
   display: none;
 }
 
-.cookie-modal.show {
+[data-cookie-modal='open'] {
   transform: translate(-50%, -50%);
   bottom: 20px;
   opacity: 1;
@@ -208,9 +208,7 @@ a {
 .decline-btn:active {
   background: none;
 }
-#cookieModal.show {
-  opacity: 1;
-}
+
 @media only screen and (min-width: 1200px) {
   .header {
     display: flex;
