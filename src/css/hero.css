@@ -88,6 +88,10 @@
   }
 
   .hero-container {
+    background: url('/img/desktop-hero-bcg.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     min-width: 1026px;
     max-width: 1026px;
     height: 725px;
@@ -134,6 +138,7 @@
   .hero-btn:active {
     background: #f8f8f8;
   }
+
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .hero-container {
       background: url('/img/desktop-hero-bcg@2x.webp') center/cover no-repeat;
