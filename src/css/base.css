@@ -29,7 +29,6 @@ body {
   background-color: #d4e5ee;
   display: flex;
   flex-direction: column;
-  min-width: 100vw;
   min-height: 100vh;
   margin: 0;
 }

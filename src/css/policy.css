@@ -33,6 +33,10 @@
   margin-bottom: 24px;
 }
 
+.cookie-list > li:first-child {
+  margin-top: 30px;
+}
+
 .li-style {
   list-style-type: disc;
   margin-left: 36px;
