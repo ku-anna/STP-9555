@@ -45,6 +45,11 @@
   color: #2e2b2b;
 }
 .play-btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0.03em;
   border: 1px solid #fff;
   border-radius: 20px;
   padding: 16px;
